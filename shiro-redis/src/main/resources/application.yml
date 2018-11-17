@@ -1,0 +1,75 @@
+server:
+  port: 8080
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.MySQLDialect
+    show-sql: true
+    properties:
+      hibernate.format_sql: true
+      hibernate.enable_lazy_load_no_trans: true
+    open-in-view: true
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/jiuxian_base_test?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true
+    username: root
+    password: 123
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+     min-idle: 5
+     initial-size: 5
+     validation-query: select 1
+     test-on-borrow: false
+     test-on-return: false
+     test-while-idle: true
+     pool-prepared-statements: false
+     max-active: 20
+     max-wait: 60000
+     validation-query-timeout: 60
+     keep-alive: true
+     use-global-data-source-stat: true
+     filters: stat,wall,log4j
+     filter:
+        stat:
+          enabled: true
+          db-type: mysql
+          log-slow-sql: true
+          slow-sql-millis: 2000
+          merge-sql: true
+        wall:
+          enabled: true
+          db-type: mysql
+          config:
+            delete-allow: true
+            drop-table-allow: true
+            create-table-allow: true
+            alter-table-allow: true
+            truncate-allow: true
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    database: 0
+    timeout: 3000
+    password:
+
+  http:
+    encoding:
+      charset: utf-8
+      force: true
+      enabled: true
+  jackson:
+      date-format: yyyy-MM-dd HH:mm:ss
+      joda-date-time-format: yyyy-MM-dd HH:mm:ss
+      serialization: true
+shiro:
+  hashAlgorithmName: MD5
+  hashIterations: 2
+
+
+
+
+
+
+
+
