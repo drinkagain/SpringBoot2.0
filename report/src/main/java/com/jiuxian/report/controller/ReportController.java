@@ -1,6 +1,6 @@
 package com.jiuxian.report.controller;
 
-import com.jiuxian.core.service.PageResult;
+import com.jiuxian.service.PageResult;
 import com.jiuxian.report.common.QueryCondition;
 import com.jiuxian.report.entity.ReportSql;
 import com.jiuxian.report.entity.ReportSqlColumn;

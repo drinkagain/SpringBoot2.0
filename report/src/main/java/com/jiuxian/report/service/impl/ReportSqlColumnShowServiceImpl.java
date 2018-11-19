@@ -1,6 +1,6 @@
 package com.jiuxian.report.service.impl;
 
-import com.jiuxian.core.service.impl.BaseServiceImpl;
+import com.jiuxian.service.impl.BaseServiceImpl;
 import com.jiuxian.report.dao.ReportSqlColumnShowDao;
 import com.jiuxian.report.entity.ReportSqlColumnShow;
 import com.jiuxian.report.service.ReportSqlColumnShowService;

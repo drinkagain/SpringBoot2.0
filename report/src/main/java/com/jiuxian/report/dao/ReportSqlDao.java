@@ -1,6 +1,6 @@
 package com.jiuxian.report.dao;
 
-import com.jiuxian.core.dao.BaseDao;
+import com.jiuxian.dao.BaseDao;
 import com.jiuxian.report.entity.ReportSql;
 import com.jiuxian.report.vo.ReportSqlNameVo;
 import org.springframework.data.jpa.repository.Modifying;

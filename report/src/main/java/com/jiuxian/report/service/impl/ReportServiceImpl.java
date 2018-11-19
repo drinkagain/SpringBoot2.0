@@ -1,6 +1,6 @@
 package com.jiuxian.report.service.impl;
 
-import com.jiuxian.core.service.impl.BaseServiceImpl;
+import com.jiuxian.service.impl.BaseServiceImpl;
 import com.jiuxian.report.entity.Report;
 import com.jiuxian.report.service.ReportService;
 import org.springframework.stereotype.Service;

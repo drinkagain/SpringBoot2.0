@@ -1,6 +1,6 @@
 package com.jiuxian.report.service;
 
-import com.jiuxian.core.service.BaseService;
+import com.jiuxian.service.BaseService;
 import com.jiuxian.report.entity.ReportSqlColumn;
 
 import java.util.List;

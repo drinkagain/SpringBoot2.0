@@ -2,7 +2,7 @@ package com.jiuxian.base.role.entity;
 
 import com.jiuxian.base.permission.entity.Permission;
 import com.jiuxian.base.user.entity.User;
-import com.jiuxian.core.entity.AuditEntity;
+import com.jiuxian.entity.AuditEntity;
 
 import javax.persistence.*;
 import java.util.Set;

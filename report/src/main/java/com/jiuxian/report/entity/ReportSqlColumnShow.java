@@ -1,9 +1,8 @@
 package com.jiuxian.report.entity;
 
-import com.jiuxian.core.entity.BaseEntity;
+import com.jiuxian.entity.BaseEntity;
 import lombok.Data;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 

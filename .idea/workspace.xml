@@ -1,7 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc0ed932-7c83-4751-bdc2-7ec51a642084" name="Default Changelist" comment="" />
+    <list default="true" id="fc0ed932-7c83-4751-bdc2-7ec51a642084" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/config/MybatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/service/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/service/impl/BaseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-orm-mybatis/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-orm-mybatis/src/test/java/com/jiuxian/user/TestUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/src/main/java/com/jiuxian/core/dao/BaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/src/main/java/com/jiuxian/dao/BaseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/src/main/java/com/jiuxian/core/dao/LogicalExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/src/main/java/com/jiuxian/dao/LogicalExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/src/main/java/com/jiuxian/core/dao/MatchMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/src/main/java/com/jiuxian/dao/MatchMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/src/main/java/com/jiuxian/core/dao/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/src/main/java/com/jiuxian/dao/Operator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/src/main/java/com/jiuxian/core/dao/OrderBy.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/src/main/java/com/jiuxian/dao/OrderBy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/src/main/java/com/jiuxian/core/dao/OrderEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/src/main/java/com/jiuxian/dao/OrderEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/src/main/java/com/jiuxian/core/dao/Pagination.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/src/main/java/com/jiuxian/dao/Pagination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/src/main/java/com/jiuxian/core/dao/QueryCriteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/src/main/java/com/jiuxian/dao/QueryCriteria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/src/main/java/com/jiuxian/core/dao/RestrictionsUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/src/main/java/com/jiuxian/dao/RestrictionsUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/src/main/java/com/jiuxian/core/entity/AuditEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/src/main/java/com/jiuxian/entity/AuditEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/src/main/java/com/jiuxian/core/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/src/main/java/com/jiuxian/entity/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/src/main/java/com/jiuxian/core/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/src/main/java/com/jiuxian/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/src/main/java/com/jiuxian/core/service/BaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/src/main/java/com/jiuxian/service/BaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/src/main/java/com/jiuxian/core/service/PageResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/src/main/java/com/jiuxian/service/PageResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/src/main/java/com/jiuxian/core/service/impl/BaseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/src/main/java/com/jiuxian/service/impl/BaseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/target/classes/com/jiuxian/core/dao/BaseDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/target/classes/com/jiuxian/core/dao/BaseDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/target/classes/com/jiuxian/core/dao/LogicalExpression$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/target/classes/com/jiuxian/core/dao/LogicalExpression$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/target/classes/com/jiuxian/core/dao/LogicalExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/target/classes/com/jiuxian/core/dao/LogicalExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/target/classes/com/jiuxian/core/dao/MatchMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/target/classes/com/jiuxian/core/dao/MatchMode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/target/classes/com/jiuxian/core/dao/Operator.class" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/target/classes/com/jiuxian/core/dao/Operator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/target/classes/com/jiuxian/core/dao/OrderBy.class" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/target/classes/com/jiuxian/core/dao/OrderBy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/target/classes/com/jiuxian/core/dao/OrderEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/target/classes/com/jiuxian/core/dao/OrderEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/target/classes/com/jiuxian/core/dao/Pagination.class" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/target/classes/com/jiuxian/core/dao/Pagination.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/target/classes/com/jiuxian/core/dao/QueryCondition$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/target/classes/com/jiuxian/core/dao/QueryCondition$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/target/classes/com/jiuxian/core/dao/QueryCondition.class" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/target/classes/com/jiuxian/core/dao/QueryCondition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/target/classes/com/jiuxian/core/dao/QueryCriteria$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/target/classes/com/jiuxian/core/dao/QueryCriteria$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/target/classes/com/jiuxian/core/dao/QueryCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/target/classes/com/jiuxian/core/dao/QueryCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/target/classes/com/jiuxian/core/dao/RestrictionsUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/target/classes/com/jiuxian/core/dao/RestrictionsUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/target/classes/com/jiuxian/core/entity/AuditEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/target/classes/com/jiuxian/core/entity/AuditEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/target/classes/com/jiuxian/core/entity/BaseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/target/classes/com/jiuxian/core/entity/BaseEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/target/classes/com/jiuxian/core/service/BaseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/target/classes/com/jiuxian/core/service/BaseService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/target/classes/com/jiuxian/core/service/PageResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/target/classes/com/jiuxian/core/service/PageResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/target/classes/com/jiuxian/core/service/impl/BaseServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/target/classes/com/jiuxian/core/service/impl/BaseServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/target/classes/com/jiuxian/core/utils/ActionUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/target/classes/com/jiuxian/core/utils/ActionUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/target/classes/com/jiuxian/core/utils/BeanUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/target/classes/com/jiuxian/core/utils/BeanUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/target/classes/com/jiuxian/core/utils/ConstantUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/target/classes/com/jiuxian/core/utils/ConstantUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/target/classes/com/jiuxian/core/utils/CronDateUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/target/classes/com/jiuxian/core/utils/CronDateUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-orm/target/classes/com/jiuxian/core/utils/JsonUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-jpa/target/classes/com/jiuxian/core/utils/JsonUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quartz/src/main/java/com/jiuxian/scheduler/entity/SysJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/quartz/src/main/java/com/jiuxian/scheduler/entity/SysJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quartz/src/main/java/com/jiuxian/scheduler/entity/SysJobLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/quartz/src/main/java/com/jiuxian/scheduler/entity/SysJobLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quartz/src/main/java/com/jiuxian/scheduler/repository/SysJobLogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/quartz/src/main/java/com/jiuxian/scheduler/repository/SysJobLogRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quartz/src/main/java/com/jiuxian/scheduler/repository/SysJobRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/quartz/src/main/java/com/jiuxian/scheduler/repository/SysJobRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/common/ExportData.java" beforeDir="false" afterPath="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/common/ExportData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/controller/ReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/controller/ReportController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/dao/ReportDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/dao/ReportDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/dao/ReportSqlColumnDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/dao/ReportSqlColumnDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/dao/ReportSqlColumnShowDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/dao/ReportSqlColumnShowDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/dao/ReportSqlDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/dao/ReportSqlDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/entity/Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/entity/Report.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/entity/ReportSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/entity/ReportSql.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/entity/ReportSqlColumn.java" beforeDir="false" afterPath="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/entity/ReportSqlColumn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/entity/ReportSqlColumnShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/entity/ReportSqlColumnShow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/service/ReportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/service/ReportService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/service/ReportSqlColumnService.java" beforeDir="false" afterPath="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/service/ReportSqlColumnService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/service/ReportSqlColumnShowService.java" beforeDir="false" afterPath="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/service/ReportSqlColumnShowService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/service/ReportSqlService.java" beforeDir="false" afterPath="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/service/ReportSqlService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/service/impl/ReportServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/service/impl/ReportServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/service/impl/ReportSqlColumnServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/service/impl/ReportSqlColumnServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/service/impl/ReportSqlColumnShowServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/service/impl/ReportSqlColumnShowServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/service/impl/ReportSqlServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/service/impl/ReportSqlServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/base/permission/entity/Permission.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/base/permission/entity/Permission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/base/role/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/base/role/entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/base/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/base/user/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/base/user/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/base/user/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/base/user/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/base/user/entity/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/base/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/base/user/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/base/user/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/base/user/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/core/config/DruidDBConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/config/DruidDBConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/core/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/core/config/RedisObjectSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/config/RedisObjectSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/core/config/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/config/ShiroConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/core/config/shiro/MySessionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/config/shiro/MySessionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/core/config/shiro/MyShiroRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/config/shiro/MyShiroRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/core/config/shiro/ShiroCacheManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/config/shiro/ShiroCacheManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/core/config/shiro/ShiroRedisCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/config/shiro/ShiroRedisCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/core/config/shiro/ShiroSessionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/config/shiro/ShiroSessionDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/core/dao/BaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/dao/BaseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/core/dao/LogicalExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/dao/LogicalExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/core/dao/MatchMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/dao/MatchMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/core/dao/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/dao/Operator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/core/dao/OrderBy.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/dao/OrderBy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/core/dao/OrderEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/dao/OrderEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/core/dao/QueryCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/dao/QueryCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/core/dao/RestrictionsUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/dao/RestrictionsUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/core/entity/AuditEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/entity/AuditEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/core/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/entity/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/core/exception/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/exception/BusinessException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/core/exception/DaoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/exception/DaoException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/core/interceptor/MyExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/interceptor/MyExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/core/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/core/service/BaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/service/BaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/core/service/impl/BaseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/service/impl/BaseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/core/web/action/ActionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/web/action/ActionUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/core/web/action/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/web/action/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/core/web/action/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/web/action/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/core/web/model/ActionResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/web/model/ActionResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-redis/src/test/java/com/jiuxian/User/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-redis/src/test/java/com/jiuxian/User/UserTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/quartz/target/" />
@@ -11,6 +123,8 @@
     <ignored path="$PROJECT_DIR$/utils/target/" />
     <ignored path="$PROJECT_DIR$/base-utils/target/" />
     <ignored path="$PROJECT_DIR$/base-orm/target/" />
+    <ignored path="$PROJECT_DIR$/base-orm-mybatis/target/" />
+    <ignored path="$PROJECT_DIR$/base-orm-jpa/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,51 +149,56 @@
     <session id="470379494">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.32" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="18" />
+          <entry key="class" value="23" />
           <entry key="iml" value="2" />
-          <entry key="java" value="173" />
-          <entry key="properties" value="4" />
+          <entry key="java" value="187" />
+          <entry key="mvnw" value="1" />
+          <entry key="properties" value="5" />
           <entry key="sql" value="5" />
-          <entry key="xml" value="23" />
-          <entry key="yml" value="4" />
+          <entry key="xml" value="30" />
+          <entry key="yml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="18" />
+          <entry key="Bash" value="1" />
+          <entry key="CLASS" value="23" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="173" />
-          <entry key="Properties" value="4" />
+          <entry key="JAVA" value="187" />
+          <entry key="Properties" value="5" />
           <entry key="SQL" value="5" />
-          <entry key="XML" value="23" />
-          <entry key="YAML" value="4" />
+          <entry key="XML" value="30" />
+          <entry key="YAML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2482" />
+          <entry key="dummy" value="3" />
+          <entry key="java" value="2802" />
           <entry key="sql" value="13" />
-          <entry key="xml" value="91" />
-          <entry key="yml" value="23" />
+          <entry key="xml" value="102" />
+          <entry key="yml" value="488" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2482" />
+          <entry key="JAVA" value="2802" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="SQL" value="13" />
-          <entry key="XML" value="91" />
-          <entry key="YAML" value="23" />
+          <entry key="XML" value="102" />
+          <entry key="YAML" value="488" />
         </counts>
       </usages-collector>
     </session>
@@ -87,91 +206,109 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quartz/src/main/java/com/jiuxian/scheduler/entity/SysJob.java">
+        <entry file="file://$PROJECT_DIR$/base-orm-mybatis/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="432">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quartz/src/main/java/com/jiuxian/scheduler/entity/SysJobLog.java">
+        <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+            <state relative-caret-position="200">
+              <caret line="64" column="88" selection-start-line="64" selection-start-column="88" selection-end-line="64" selection-end-column="88" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quartz/src/main/java/com/jiuxian/scheduler/repository/SysJobLogRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quartz/src/main/java/com/jiuxian/scheduler/repository/SysJobRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/dao/ReportSqlDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/JiuxianBaseApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/common/utils/ConstantUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/common/utils/JSONUtil.java">
+        <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/mapper/UserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/common/utils/RedisUtil.java">
+        <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/config/MybatisConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="216">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/common/utils/SerializeUtil.java">
+        <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/service/impl/BaseServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="288">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/config/RedisConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.0.6/mybatis-plus-extension-3.0.6.jar!/com/baomidou/mybatisplus/extension/service/impl/ServiceImpl.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="293" column="45" selection-start-line="293" selection-start-column="38" selection-end-line="293" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.0.6/mybatis-plus-extension-3.0.6.jar!/com/baomidou/mybatisplus/extension/toolkit/SqlHelper.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
+              <folding>
+                <element signature="e#1788#1789#0" expanded="true" />
+                <element signature="e#1840#1841#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/entity/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/service/BaseService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -182,6 +319,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -194,25 +332,15 @@
       <find>getCount</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/base/src/main/java/com/jiuxian/core/service/impl/BaseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/base/src/main/java/com/jiuxian/core/service/BaseService.java" />
-        <option value="$PROJECT_DIR$/quartz/src/test/java/com/jiuxian/job/TestJobQuery.java" />
-        <option value="$PROJECT_DIR$/quartz/src/test/java/com/jiuxian/SpringQuartzApplicationTests.java" />
-        <option value="$PROJECT_DIR$/utils/pom.xml" />
-        <option value="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/core/utils/BeanUtil.java" />
-        <option value="$PROJECT_DIR$/base/pom.xml" />
-        <option value="$PROJECT_DIR$/base-utils/src/main/java/com/jiuxian/package-info.java" />
-        <option value="$PROJECT_DIR$/base-utils/src/main/java/com/jiuxian/exception/JsonException.java" />
-        <option value="$PROJECT_DIR$/base-utils/src/main/java/com/jiuxian/web/ActionUtils.java" />
-        <option value="$PROJECT_DIR$/base-utils/src/main/java/com/jiuxian/common/ConstantUtils.java" />
-        <option value="$PROJECT_DIR$/base-utils/src/main/java/com/jiuxian/date/EnumDateFormat.java" />
         <option value="$PROJECT_DIR$/base-utils/src/main/java/com/jiuxian/bean/BeanUtil.java" />
         <option value="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/core/common/poi/util/LoadUtil.java" />
         <option value="$PROJECT_DIR$/quartz/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/dao/ReportSqlColumnDao.java" />
         <option value="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/service/ReportSqlColumnShowService.java" />
         <option value="$PROJECT_DIR$/base-orm/src/main/java/com/jiuxian/core/service/PageResult.java" />
@@ -248,6 +376,19 @@
         <option value="$PROJECT_DIR$/report/src/main/resources/sql/init.sql" />
         <option value="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/entity/ReportSql.java" />
         <option value="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/dao/ReportSqlDao.java" />
+        <option value="$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/common/utils/SerializeUtil.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/base-orm-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/base-orm-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/BaseOrmMybatisApplication.java" />
+        <option value="$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/config/MybaitsConfig.java" />
+        <option value="$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/config/MybatisConfig.java" />
+        <option value="$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/base-orm-mybatis/src/test/java/com/jiuxian/user/TestUser.java" />
+        <option value="$PROJECT_DIR$/base-orm-mybatis/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/entity/User.java" />
+        <option value="$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/service/BaseService.java" />
+        <option value="$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/service/impl/BaseServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -322,6 +463,9 @@
     <option name="width" value="1680" />
     <option name="height" value="955" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -338,6 +482,132 @@
             <path>
               <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="base-orm-jpa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="base-orm-jpa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="base-orm-jpa" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="base-orm-mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="base-orm-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="base-orm-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="base-orm-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="base-orm-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jiuxian" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="base-orm-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jiuxian" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="base-orm-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jiuxian" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="base-orm-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jiuxian" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="base-orm-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="quartz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="quartz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="quartz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="quartz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="quartz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
               <item name="shiro-redis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -378,21 +648,101 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jiuxian" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.baomidou:mybatis-plus:3.0.6" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.baomidou:mybatis-plus:3.0.6" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-plus-3.0.6.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.baomidou:mybatis-plus-boot-starter:3.0.6" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.baomidou:mybatis-plus-boot-starter:3.0.6" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-plus-boot-starter-3.0.6.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.baomidou:mybatis-plus-boot-starter:3.0.6" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-plus-boot-starter-3.0.6.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.baomidou:mybatis-plus-core:3.0.6" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.baomidou:mybatis-plus-core:3.0.6" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-plus-core-3.0.6.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.baomidou:mybatis-plus-extension:3.0.6" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.baomidou:mybatis-plus-extension:3.0.6" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-plus-extension-3.0.6.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.baomidou:mybatis-plus-extension:3.0.6" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-plus-extension-3.0.6.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="extension" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.baomidou:mybatis-plus-extension:3.0.6" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-plus-extension-3.0.6.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="extension" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.baomidou:mybatis-plus-extension:3.0.6" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-plus-extension-3.0.6.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="extension" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.baomidou:mybatis-plus-extension:3.0.6" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-plus-extension-3.0.6.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="extension" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -403,7 +753,7 @@
     <property name="SearchEverywhereHistoryKey" value="BigInt&#9;PSI&#9;JAVA://java.math.BigInteger" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542469252492" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542642179477" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="E:/MyProject/wis_base_platform_vue" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
@@ -414,8 +764,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\MyApp\GitHub\SpringBoot\report\src\main\java\com\jiuxian\report" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\MyApp\GitHub\SpringBoot\base-orm-mybatis\src\main\resources" />
+      <recent name="C:\MyApp\GitHub\SpringBoot\report\src\main\resources" />
+      <recent name="C:\MyApp\GitHub\SpringBoot\quartz\src\main\resources" />
+      <recent name="C:\MyApp\GitHub\SpringBoot\base\src\main\java\com\jiuxian\core\utils" />
+      <recent name="C:\MyApp\GitHub\SpringBoot\base\src\main\java\com\jiuxian\core\service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.jiuxian.report.vo" />
@@ -423,12 +777,8 @@
       <recent name="com.jiuxian" />
       <recent name="com.jiuxian.core.entity" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\MyApp\GitHub\SpringBoot\report\src\main\resources" />
-      <recent name="C:\MyApp\GitHub\SpringBoot\quartz\src\main\resources" />
-      <recent name="C:\MyApp\GitHub\SpringBoot\base\src\main\java\com\jiuxian\core\utils" />
-      <recent name="C:\MyApp\GitHub\SpringBoot\base\src\main\java\com\jiuxian\core\service" />
-      <recent name="C:\MyApp\GitHub\SpringBoot\base\src\main\java\com\jiuxian\core\dao" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\MyApp\GitHub\SpringBoot\report\src\main\java\com\jiuxian\report" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -443,7 +793,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ReportDaoTest.getReportSql">
+  <component name="RunManager" selected="JUnit.TestUser.testSelect">
     <configuration name="ReportDaoTest.getReportSql" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="report" />
       <extension name="coverage">
@@ -456,6 +806,29 @@
       <option name="MAIN_CLASS_NAME" value="com.jiuxian.report.biz.ReportDaoTest" />
       <option name="METHOD_NAME" value="getReportSql" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUser.testSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="base-orm-mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiuxian.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jiuxian.user" />
+      <option name="MAIN_CLASS_NAME" value="com.jiuxian.user.TestUser" />
+      <option name="METHOD_NAME" value="testSelect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BaseOrmMybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="base-orm-mybatis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiuxian.core.BaseOrmMybatisApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -476,9 +849,12 @@
     <list>
       <item itemvalue="Spring Boot.SpringQuartzApplication" />
       <item itemvalue="JUnit.ReportDaoTest.getReportSql" />
+      <item itemvalue="Spring Boot.BaseOrmMybatisApplication" />
+      <item itemvalue="JUnit.TestUser.testSelect" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestUser.testSelect" />
         <item itemvalue="JUnit.ReportDaoTest.getReportSql" />
         <item itemvalue="Spring Boot.SpringQuartzApplication" />
       </list>
@@ -500,43 +876,45 @@
       <workItem from="1542442716702" duration="6124000" />
       <workItem from="1542458979416" duration="1413000" />
       <workItem from="1542468684635" duration="977000" />
+      <workItem from="1542551092358" duration="42000" />
+      <workItem from="1542638644568" duration="3530000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReportDaoTest_getReportSql - 2018.11.17 at 20h 51m 59s.xml">
-      <configuration name="ReportDaoTest.getReportSql" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReportDaoTest_getReportSql - 2018.11.17 at 20h 52m 55s.xml">
-      <configuration name="ReportDaoTest.getReportSql" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReportDaoTest_getReportSql - 2018.11.17 at 20h 53m 58s.xml">
-      <configuration name="ReportDaoTest.getReportSql" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReportDaoTest_getReportSql - 2018.11.17 at 20h 55m 50s.xml">
-      <configuration name="ReportDaoTest.getReportSql" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReportDaoTest_getReportSql - 2018.11.17 at 20h 57m 03s.xml">
-      <configuration name="ReportDaoTest.getReportSql" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReportDaoTest_getReportSql - 2018.11.17 at 20h 58m 15s.xml">
-      <configuration name="ReportDaoTest.getReportSql" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReportDaoTest_getReportSql - 2018.11.17 at 20h 59m 15s.xml">
-      <configuration name="ReportDaoTest.getReportSql" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReportDaoTest_getReportSql - 2018.11.17 at 21h 00m 03s.xml">
-      <configuration name="ReportDaoTest.getReportSql" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ReportDaoTest_getReportSql - 2018.11.17 at 21h 01m 41s.xml">
       <configuration name="ReportDaoTest.getReportSql" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ReportDaoTest_getReportSql - 2018.11.17 at 21h 02m 45s.xml">
       <configuration name="ReportDaoTest.getReportSql" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestUser_testSelect - 2018.11.19 at 23h 03m 16s.xml">
+      <configuration name="TestUser.testSelect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUser_testSelect - 2018.11.19 at 23h 05m 11s.xml">
+      <configuration name="TestUser.testSelect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUser_testSelect - 2018.11.19 at 23h 07m 11s.xml">
+      <configuration name="TestUser.testSelect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUser_testSelect - 2018.11.19 at 23h 07m 43s.xml">
+      <configuration name="TestUser.testSelect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUser_testSelect - 2018.11.19 at 23h 23m 12s.xml">
+      <configuration name="TestUser.testSelect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUser_testSelect - 2018.11.19 at 23h 24m 17s.xml">
+      <configuration name="TestUser.testSelect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUser_testSelect - 2018.11.19 at 23h 25m 14s.xml">
+      <configuration name="TestUser.testSelect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUser_testSelect - 2018.11.19 at 23h 26m 11s.xml">
+      <configuration name="TestUser.testSelect" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19393000" />
+    <option name="totallyTimeSpent" value="22965000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -549,8 +927,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37415883" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37348586" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -567,11 +946,11 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.329927" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.329927" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.329927" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32846716" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.329927" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -626,153 +1005,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/dao/ReportDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.0.10.RELEASE/spring-data-jpa-2.0.10.RELEASE.jar!/org/springframework/data/jpa/repository/Query.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/vo/ReportSqlNameVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/service/ReportSqlService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/service/ReportSqlColumnService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/service/impl/ReportServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base-orm/src/main/java/com/jiuxian/core/dao/QueryCriteria.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="116" column="5" lean-forward="true" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/vo/ReportSqlColumnVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE.jar!/org/springframework/http/ResponseEntity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="95" column="45" selection-start-line="95" selection-start-column="45" selection-end-line="95" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base-utils/src/main/java/com/jiuxian/string/StringUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/ColumnVo.java" />
-    <entry file="file://$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/common/QueryCondition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/common/ExportData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/common/EnumColumnDataType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/common/EnumSqlQueryType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/src/test/java/com/jiuxian/report/Main1.java" />
-    <entry file="file://$PROJECT_DIR$/report/src/test/java/com/jiuxian/report/biz/package-info.java" />
-    <entry file="file://$PROJECT_DIR$/report/src/test/java/com/jiuxian/report/SpringbootReportApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quartz/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.47/mysql-connector-java-5.1.47.jar!/com/mysql/jdbc/Driver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/mapper/ReportSqlMapper.java" />
-    <entry file="file://$PROJECT_DIR$/base-orm/src/main/java/com/jiuxian/core/entity/AuditEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/src/test/java/com/jiuxian/report/biz/ReportDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="45" column="19" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/service/impl/ReportSqlColumnShowServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -815,7 +1047,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base-orm/src/main/java/com/jiuxian/core/entity/BaseEntity.java">
+    <entry file="file://$PROJECT_DIR$/base-orm-jpa/src/main/java/com/jiuxian/entity/BaseEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1536">
           <caret line="86" column="5" lean-forward="true" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
@@ -885,59 +1117,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quartz/src/main/java/com/jiuxian/scheduler/entity/SysJob.java">
+    <entry file="file://$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/common/utils/SerializeUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quartz/src/main/java/com/jiuxian/scheduler/entity/SysJobLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quartz/src/main/java/com/jiuxian/scheduler/repository/SysJobLogRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quartz/src/main/java/com/jiuxian/scheduler/repository/SysJobRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/dao/ReportSqlDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/JiuxianBaseApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/common/utils/ConstantUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/common/utils/JSONUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        <state relative-caret-position="960">
+          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -948,10 +1131,243 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/common/utils/SerializeUtil.java">
+    <entry file="file://$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/common/utils/JSONUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/common/utils/ConstantUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/JiuxianBaseApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/dao/ReportSqlDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quartz/src/main/java/com/jiuxian/scheduler/repository/SysJobRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quartz/src/main/java/com/jiuxian/scheduler/repository/SysJobLogRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quartz/src/main/java/com/jiuxian/scheduler/entity/SysJobLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quartz/src/main/java/com/jiuxian/scheduler/entity/SysJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-orm-mybatis/mvnw">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6229">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quartz/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="17" selection-end-line="57" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-orm-jpa/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quartz/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="24" selection-start-line="24" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/BaseOrmMybatisApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.0.6/mybatis-plus-core-3.0.6.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../JDK/jdk1.8/src.zip!/java/io/Serializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/test/java/com/jiuxian/user/TestUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-orm-mybatis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="64" column="88" selection-start-line="64" selection-start-column="88" selection-end-line="64" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/service/BaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.0.6/mybatis-plus-extension-3.0.6.jar!/com/baomidou/mybatisplus/extension/service/IService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1392">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.0.6/mybatis-plus-core-3.0.6-sources.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="86" column="17" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/config/MybatisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.0.6/mybatis-plus-extension-3.0.6.jar!/com/baomidou/mybatisplus/extension/toolkit/SqlHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
+          <folding>
+            <element signature="e#1788#1789#0" expanded="true" />
+            <element signature="e#1840#1841#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.0.6/mybatis-plus-core-3.0.6-sources.jar!/com/baomidou/mybatisplus/core/conditions/AbstractWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3312">
+          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.0.6/mybatis-plus-extension-3.0.6.jar!/com/baomidou/mybatisplus/extension/service/impl/ServiceImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="293" column="45" selection-start-line="293" selection-start-column="38" selection-end-line="293" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/service/impl/BaseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

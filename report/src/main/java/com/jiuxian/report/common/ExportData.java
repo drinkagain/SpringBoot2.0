@@ -1,7 +1,7 @@
 package com.jiuxian.report.common;
 
 import com.jiuxian.bean.BeanUtil;
-import com.jiuxian.core.service.PageResult;
+import com.jiuxian.service.PageResult;
 import com.jiuxian.poi.PoiUtil;
 import com.jiuxian.report.entity.ReportSqlColumn;
 import org.apache.poi.ss.usermodel.Cell;

@@ -3,7 +3,7 @@ package com.jiuxian.base.user.service.impl;
 import com.jiuxian.base.user.dao.UserDao;
 import com.jiuxian.base.user.entity.User;
 import com.jiuxian.base.user.service.UserService;
-import com.jiuxian.core.service.impl.BaseServiceImpl;
+import com.jiuxian.service.impl.BaseServiceImpl;
 import org.apache.shiro.crypto.hash.SimpleHash;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

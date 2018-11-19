@@ -1,12 +1,8 @@
 package com.jiuxian.report.entity;
 
-import com.jiuxian.core.entity.BaseEntity;
+import com.jiuxian.entity.BaseEntity;
 import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.extern.java.Log;
-import lombok.extern.log4j.Log4j2;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;

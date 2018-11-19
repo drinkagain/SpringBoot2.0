@@ -1,7 +1,7 @@
 package com.jiuxian.report.service;
 
-import com.jiuxian.core.service.BaseService;
-import com.jiuxian.core.service.PageResult;
+import com.jiuxian.service.BaseService;
+import com.jiuxian.service.PageResult;
 import com.jiuxian.report.common.ExportData;
 import com.jiuxian.report.entity.ReportSql;
 import com.jiuxian.report.entity.ReportSqlColumn;

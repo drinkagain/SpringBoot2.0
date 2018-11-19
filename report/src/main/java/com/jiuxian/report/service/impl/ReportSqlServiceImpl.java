@@ -1,8 +1,8 @@
 package com.jiuxian.report.service.impl;
 
 import com.jiuxian.bean.BeanUtil;
-import com.jiuxian.core.service.PageResult;
-import com.jiuxian.core.service.impl.BaseServiceImpl;
+import com.jiuxian.service.PageResult;
+import com.jiuxian.service.impl.BaseServiceImpl;
 import com.jiuxian.poi.PoiUtil;
 import com.jiuxian.report.common.ExportData;
 import com.jiuxian.report.dao.ReportSqlDao;
