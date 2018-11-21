@@ -9,9 +9,9 @@ spring:
     open-in-view: true
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/mybatis-plus?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&serverTimezone=UTC
+    url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&serverTimezone=UTC
     username: root
-    password: 123
+    password:
     type: com.alibaba.druid.pool.DruidDataSource
     druid:
       min-idle: 5
@@ -76,7 +76,6 @@ mybatis-plus:
     cache-enabled: true
     call-setters-on-nulls: false #指定当结果集中值为 null 的时候是否调用映射对象的 Setter（Map 对象时为 put）方法
   global-config:
-    refresh: true
     sql-parser-cache: true  #是否缓存 Sql 解析，默认不缓存。
     db-config:
       db-type: mysql
