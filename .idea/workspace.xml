@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc0ed932-7c83-4751-bdc2-7ec51a642084" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/config/TransactionAdviceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-orm-mybatis/src/main/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/base-orm-mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-mybatis/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/service/BaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/service/BaseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/service/impl/BaseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/service/impl/BaseServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base-orm-mybatis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-mybatis/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base-orm-mybatis/src/test/java/com/jiuxian/user/TestUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-orm-mybatis/src/test/java/com/jiuxian/user/TestUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quartz/quartz.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/report.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -117,34 +107,37 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="7" />
-          <entry key="java" value="15" />
-          <entry key="xml" value="2" />
-          <entry key="yml" value="3" />
+          <entry key="class" value="14" />
+          <entry key="cmd" value="2" />
+          <entry key="java" value="34" />
+          <entry key="log" value="24" />
+          <entry key="xml" value="4" />
+          <entry key="yml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="7" />
-          <entry key="JAVA" value="15" />
-          <entry key="XML" value="2" />
-          <entry key="YAML" value="3" />
+          <entry key="CLASS" value="14" />
+          <entry key="JAVA" value="34" />
+          <entry key="PLAIN_TEXT" value="26" />
+          <entry key="XML" value="4" />
+          <entry key="YAML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="479" />
-          <entry key="xml" value="3" />
-          <entry key="yml" value="5" />
+          <entry key="java" value="988" />
+          <entry key="xml" value="326" />
+          <entry key="yml" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="479" />
-          <entry key="XML" value="3" />
-          <entry key="YAML" value="5" />
+          <entry key="JAVA" value="988" />
+          <entry key="XML" value="326" />
+          <entry key="YAML" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages">
@@ -159,10 +152,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/config/TransactionAdviceConfig.java">
+        <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/resources/logback.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            <state relative-caret-position="286">
+              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="65" column="72" selection-start-line="65" selection-start-column="72" selection-end-line="65" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/test/java/com/jiuxian/user/TestUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="137" column="71" selection-start-line="137" selection-start-column="71" selection-end-line="137" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -171,40 +182,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/config/MybatisConfig.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.0.6/mybatis-plus-core-3.0.6-sources.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="390">
+              <caret line="15" column="44" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="44" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#6404#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base-orm-mybatis/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="607">
-              <caret line="63" column="36" lean-forward="true" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-tx/5.1.2.RELEASE/spring-tx-5.1.2.RELEASE.jar!/org/springframework/transaction/PlatformTransactionManager.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" column="28" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -213,51 +197,10 @@
         <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/entity/User.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/test/java/com/jiuxian/user/TestUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#687#688#0" expanded="true" />
-                <element signature="e#728#729#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/service/impl/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/service/BaseService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/BaseOrmMybatisApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -279,6 +222,9 @@
       <find>* @return</find>
       <find>if (value.equals(null)) return null;</find>
       <find>getCount</find>
+      <find>ENCODER_PATTERN</find>
+      <find>LOG_HOME</find>
+      <find>STDOUT</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -287,7 +233,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/dao/ReportSqlColumnDao.java" />
         <option value="$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/service/ReportSqlColumnShowService.java" />
         <option value="$PROJECT_DIR$/base-orm/src/main/java/com/jiuxian/core/service/PageResult.java" />
         <option value="$PROJECT_DIR$/base-utils/pom.xml" />
@@ -329,15 +274,16 @@
         <option value="$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/config/MybaitsConfig.java" />
         <option value="$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/config/MybatisConfig.java" />
         <option value="$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/entity/User.java" />
         <option value="$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/service/BaseService.java" />
         <option value="$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/service/impl/BaseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/base-orm-mybatis/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/base-orm-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/service/UserService.java" />
         <option value="$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/base-orm-mybatis/src/test/java/com/jiuxian/user/TestUser.java" />
+        <option value="$PROJECT_DIR$/base-orm-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/config/TransactionAdviceConfig.java" />
+        <option value="$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/entity/User.java" />
+        <option value="$PROJECT_DIR$/base-orm-mybatis/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/base-orm-mybatis/src/test/java/com/jiuxian/user/TestUser.java" />
+        <option value="$PROJECT_DIR$/base-orm-mybatis/src/main/resources/logback.xml" />
       </list>
     </option>
   </component>
@@ -374,51 +320,15 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="base-orm-mybatis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.boot:spring-boot-starter-web:2.1.0.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="base-orm-mybatis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.boot:spring-boot-starter-web:2.1.0.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework.boot:spring-boot-starter:2.1.0.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="base-orm-mybatis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.boot:spring-boot-starter-web:2.1.0.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework.boot:spring-boot-starter:2.1.0.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework.boot:spring-boot:2.1.0.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="base-orm-mybatis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.boot:spring-boot-starter-web:2.1.0.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework.boot:spring-boot-starter:2.1.0.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework.boot:spring-boot-starter-logging:2.1.0.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="base-orm-mybatis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.boot:spring-boot-starter-test:2.1.0.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="SpringBoot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="y" value="20" />
-    <option name="width" value="1680" />
-    <option name="height" value="955" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="974" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -479,6 +389,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jiuxian" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="base-orm-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jiuxian" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
@@ -597,10 +518,10 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="BigInt&#9;PSI&#9;JAVA://java.math.BigInteger" />
+    <property name="SearchEverywhereHistoryKey" value="BaseMapper&#9;FILE&#9;jar://D:/mvn_repo/com/baomidou/mybatis-plus-core/3.0.6/mybatis-plus-core-3.0.6-sources.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.java&#10;BigInt&#9;PSI&#9;JAVA://java.math.BigInteger" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542791189186" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542803830865" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
@@ -640,7 +561,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestUser.doSaveBatch">
+  <component name="RunManager" selected="JUnit.TestUser.testLambdaSelect">
     <configuration name="ReportDaoTest.getReportSql" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="report" />
       <extension name="coverage">
@@ -668,6 +589,22 @@
       <option name="PACKAGE_NAME" value="com.jiuxian.user" />
       <option name="MAIN_CLASS_NAME" value="com.jiuxian.user.TestUser" />
       <option name="METHOD_NAME" value="doSaveBatch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUser.testLambdaSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="base-orm-mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiuxian.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jiuxian.user" />
+      <option name="MAIN_CLASS_NAME" value="com.jiuxian.user.TestUser" />
+      <option name="METHOD_NAME" value="testLambdaSelect" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -723,9 +660,11 @@
       <item itemvalue="JUnit.ReportDaoTest.getReportSql" />
       <item itemvalue="JUnit.TestUser.testSelect" />
       <item itemvalue="JUnit.TestUser.doSaveBatch" />
+      <item itemvalue="JUnit.TestUser.testLambdaSelect" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestUser.testLambdaSelect" />
         <item itemvalue="JUnit.TestUser.doSaveBatch" />
         <item itemvalue="JUnit.TestUser.testSelect" />
         <item itemvalue="JUnit.ReportDaoTest.getReportSql" />
@@ -752,44 +691,44 @@
       <workItem from="1542551092358" duration="42000" />
       <workItem from="1542638644568" duration="3530000" />
       <workItem from="1542710644063" duration="2660000" />
-      <workItem from="1542785904674" duration="3995000" />
+      <workItem from="1542785904674" duration="12647000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestUser_testSelect - 2018.11.19 at 23h 23m 12s.xml">
-      <configuration name="TestUser.testSelect" configurationId="JUnit" />
+    <history-entry file="TestUser_testLambdaSelect - 2018.11.21 at 20h 13m 55s.xml">
+      <configuration name="TestUser.testLambdaSelect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestUser_testSelect - 2018.11.19 at 23h 24m 17s.xml">
-      <configuration name="TestUser.testSelect" configurationId="JUnit" />
+    <history-entry file="TestUser_testLambdaSelect - 2018.11.21 at 20h 17m 02s.xml">
+      <configuration name="TestUser.testLambdaSelect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestUser_testSelect - 2018.11.19 at 23h 25m 14s.xml">
-      <configuration name="TestUser.testSelect" configurationId="JUnit" />
+    <history-entry file="TestUser_testLambdaSelect - 2018.11.21 at 20h 17m 53s.xml">
+      <configuration name="TestUser.testLambdaSelect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestUser_testSelect - 2018.11.19 at 23h 26m 11s.xml">
-      <configuration name="TestUser.testSelect" configurationId="JUnit" />
+    <history-entry file="TestUser_testLambdaSelect - 2018.11.21 at 20h 23m 56s.xml">
+      <configuration name="TestUser.testLambdaSelect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestUser_testSelect - 2018.11.21 at 16h 16m 07s.xml">
-      <configuration name="TestUser.testSelect" configurationId="JUnit" />
+    <history-entry file="TestUser_testLambdaSelect - 2018.11.21 at 20h 24m 12s.xml">
+      <configuration name="TestUser.testLambdaSelect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestUser_doSaveBatch - 2018.11.21 at 16h 30m 46s.xml">
-      <configuration name="TestUser.doSaveBatch" configurationId="JUnit" />
+    <history-entry file="TestUser_testLambdaSelect - 2018.11.21 at 20h 25m 39s.xml">
+      <configuration name="TestUser.testLambdaSelect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestUser_doSaveBatch - 2018.11.21 at 16h 31m 02s.xml">
-      <configuration name="TestUser.doSaveBatch" configurationId="JUnit" />
+    <history-entry file="TestUser_testLambdaSelect - 2018.11.21 at 20h 26m 47s.xml">
+      <configuration name="TestUser.testLambdaSelect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestUser_doSaveBatch - 2018.11.21 at 16h 32m 33s.xml">
-      <configuration name="TestUser.doSaveBatch" configurationId="JUnit" />
+    <history-entry file="TestUser_testLambdaSelect - 2018.11.21 at 20h 27m 59s.xml">
+      <configuration name="TestUser.testLambdaSelect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestUser_doSaveBatch - 2018.11.21 at 16h 32m 44s.xml">
-      <configuration name="TestUser.doSaveBatch" configurationId="JUnit" />
+    <history-entry file="TestUser_testLambdaSelect - 2018.11.21 at 20h 31m 56s.xml">
+      <configuration name="TestUser.testLambdaSelect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestUser_doSaveBatch - 2018.11.21 at 16h 33m 08s.xml">
-      <configuration name="TestUser.doSaveBatch" configurationId="JUnit" />
+    <history-entry file="TestUser_testLambdaSelect - 2018.11.21 at 20h 32m 48s.xml">
+      <configuration name="TestUser.testLambdaSelect" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29620000" />
+    <option name="totallyTimeSpent" value="38272000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -801,9 +740,44 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26795283" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5250278" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.610219" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.329927" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32925472" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.329927" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32814237" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.329927" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32925472" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.50428724" />
+      <window_info anchor="right" id="Database" order="6" weight="0.329582" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.329582" />
+    </layout>
+    <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26848873" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
@@ -814,18 +788,18 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.92102337" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6051168" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.610219" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.329927" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.329927" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32925472" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.329927" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32814237" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.329927" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32925472" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -833,44 +807,10 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.50428724" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" weight="0.329582" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info id="Image Layers" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="Web" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.33647376" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.329927" />
-      <window_info anchor="bottom" id="Java Enterprise" order="4" />
-      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.6627737" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.610219" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Maven Projects" order="2" weight="0.5047106" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Bean Validation" order="6" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.329582" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -880,122 +820,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/entity/ReportSqlColumnShow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quartz/src/main/java/com/jiuxian/scheduler/utils/JobBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/common/utils/SerializeUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/common/utils/RedisUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/common/utils/JSONUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/common/utils/ConstantUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-redis/src/main/java/com/jiuxian/JiuxianBaseApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/src/main/java/com/jiuxian/report/dao/ReportSqlDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quartz/src/main/java/com/jiuxian/scheduler/repository/SysJobRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quartz/src/main/java/com/jiuxian/scheduler/repository/SysJobLogRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quartz/src/main/java/com/jiuxian/scheduler/entity/SysJobLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quartz/src/main/java/com/jiuxian/scheduler/entity/SysJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base-orm-mybatis/mvnw">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6229">
-          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base-orm-jpa/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/package-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.0.6/mybatis-plus-core-3.0.6.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.class" />
     <entry file="jar://D:/JDK/jdk1.8/src.zip!/java/io/Serializable.java" />
     <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/resources/mybatis-config.xml" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.0.6/mybatis-plus-extension-3.0.6.jar!/com/baomidou/mybatisplus/extension/service/IService.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.0.6/mybatis-plus-core-3.0.6-sources.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.0.6/mybatis-plus-extension-3.0.6.jar!/com/baomidou/mybatisplus/extension/toolkit/SqlHelper.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.0.6/mybatis-plus-core-3.0.6-sources.jar!/com/baomidou/mybatisplus/core/conditions/AbstractWrapper.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.0.6/mybatis-plus-extension-3.0.6.jar!/com/baomidou/mybatisplus/extension/service/impl/ServiceImpl.class" />
@@ -1065,16 +892,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/service/impl/BaseServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-tx/5.1.2.RELEASE/spring-tx-5.1.2.RELEASE.jar!/org/springframework/transaction/interceptor/DefaultTransactionAttribute.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -1117,27 +934,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1430">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/BaseOrmMybatisApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base-orm-mybatis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="63" column="36" lean-forward="true" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/config/MybatisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -1148,13 +944,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/service/BaseService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -1162,42 +951,249 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/service/impl/BaseServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="28" />
+        <state relative-caret-position="182">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatis-plus-core/3.0.6/mybatis-plus-core-3.0.6.jar!/com/baomidou/mybatisplus/core/toolkit/Wrappers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+          <folding>
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatis-plus-core/3.0.6/mybatis-plus-core-3.0.6.jar!/com/baomidou/mybatisplus/core/conditions/interfaces/Compare.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding>
+            <element signature="e#1028#1029#0" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/BaseOrmMybatisApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-orm-mybatis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatis-plus-core/3.0.6/mybatis-plus-core-3.0.6-sources.jar!/com/baomidou/mybatisplus/core/conditions/query/QueryWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="111" column="30" selection-start-line="111" selection-start-column="30" selection-end-line="111" selection-end-column="30" />
+          <folding>
+            <element signature="e#1259#1286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatis-plus-core/3.0.6/mybatis-plus-core-3.0.6-sources.jar!/com/baomidou/mybatisplus/core/conditions/query/LambdaQueryWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="103" column="13" lean-forward="true" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
+          <folding>
+            <element signature="e#3444#3445#0" expanded="true" />
+            <element signature="e#3476#3477#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatis-plus-core/3.0.6/mybatis-plus-core-3.0.6-sources.jar!/com/baomidou/mybatisplus/core/conditions/interfaces/Compare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="83" column="16" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
+          <folding>
+            <element signature="e#2255#2256#0" expanded="true" />
+            <element signature="e#2299#2300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatis-plus-core/3.0.6/mybatis-plus-core-3.0.6-sources.jar!/com/baomidou/mybatisplus/core/conditions/Wrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatis-plus-extension/3.0.6/mybatis-plus-extension-3.0.6-sources.jar!/com/baomidou/mybatisplus/extension/service/IService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="278" column="28" selection-start-line="278" selection-start-column="20" selection-end-line="278" selection-end-column="28" />
+          <folding>
+            <element signature="e#5938#5939#0" expanded="true" />
+            <element signature="e#5993#5994#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatis-plus-core/3.0.6/mybatis-plus-core-3.0.6-sources.jar!/com/baomidou/mybatisplus/core/toolkit/Wrappers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="e#1132#1133#0" expanded="true" />
+            <element signature="e#1185#1186#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="26">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/test/java/com/jiuxian/user/TestUser.java">
+    <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/test/java/com/jiuxian/BaseOrmMybatisApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#687#688#0" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="260">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/config/TransactionAdviceConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        <state relative-caret-position="494">
+          <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatis-plus-annotation/3.0.6/mybatis-plus-annotation-3.0.6.jar!/com/baomidou/mybatisplus/annotation/TableName.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/java/com/jiuxian/core/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.0.6/mybatis-plus-core-3.0.6-sources.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#6404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-orm-mybatis/orm_mybatis.%d{yyyy-MM-dd}.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-orm-mybatis/mvnw.cmd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar!/ch/qos/logback/core/rolling/TimeBasedRollingPolicy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar!/ch/qos/logback/core/rolling/SizeAndTimeBasedRollingPolicy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="25" column="143" selection-start-line="25" selection-start-column="143" selection-end-line="25" selection-end-column="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar!/ch/qos/logback/core/rolling/RollingFileAppender.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar!/ch/qos/logback/core/ConsoleAppender.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="65" column="72" selection-start-line="65" selection-start-column="72" selection-end-line="65" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/test/java/com/jiuxian/user/TestUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="137" column="71" selection-start-line="137" selection-start-column="71" selection-end-line="137" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-orm-mybatis/orm_mybatis.log">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="2361" selection-start-line="2361" selection-end-line="2361" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-122">
+          <caret line="2506" selection-start-line="2506" selection-end-line="2506" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-orm-mybatis/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>
