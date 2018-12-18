@@ -26,7 +26,6 @@
     </dependencies>
     <modules>
         <module>quartz</module>
-        <module>report</module>
         <module>shiro-redis</module>
         <module>base-orm-jpa</module>
         <module>base-orm-mybatis</module>

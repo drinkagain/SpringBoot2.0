@@ -18,7 +18,7 @@
         </dependency>
         <dependency>
             <groupId>com.jiuxian</groupId>
-            <artifactId>base-orm</artifactId>
+            <artifactId>base-orm-jpa</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>

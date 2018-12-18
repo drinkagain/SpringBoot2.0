@@ -55,4 +55,12 @@ public class JsonUtil {
             throw new RuntimeException();
         }
     }
+
+    public static void main(String[] args) {
+
+        List<String> list = jsonToList("[1,2,3,4,5]", String.class);
+        list.forEach(item -> {
+            System.out.println(item + 1);
+        });
+    }
 }
