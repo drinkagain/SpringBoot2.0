@@ -30,6 +30,7 @@
         <module>base-orm-jpa</module>
         <module>base-orm-mybatis</module>
         <module>base-utils</module>
+        <module>logback</module>
     </modules>
 
 </project>

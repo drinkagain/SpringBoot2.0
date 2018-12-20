@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration scan="true" scanPeriod="60 seconds" debug="false">
+    <timestamp key="bySecond" datePattern="yyyyMMdd'T'HHmmss"/>
+    <property name="APP_Name" value="springboot"/>
+    <property name="LOG_HOME" value="."/>
+    <property name="ENCODER_PATTERN" value="%d{MM.dd HH:mm:ss.SSS} %-5level %logger{20}-[%M] %msg%n"/>
+
+    <contextName>${APP_Name}</contextName>
+
+    <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${ENCODER_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="LOG_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_HOME}/${APP_Name}.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_HOME}/logs/${APP_Name}.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <maxHistory>10</maxHistory>
+            <maxFileSize>10MB</maxFileSize>
+            <totalSizeCap>1GB</totalSizeCap>
+        </rollingPolicy>
+
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>${ENCODER_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder charset="GBK">
+            <pattern>${ENCODER_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <!--MyBatis plus 配置-->
+    <logger name="com.jiuxian.core.mapper" additivity="false">
+        <level value="DEBUG"/>
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="LOG_FILE"/>
+    </logger>
+
+    <!-- 生产环境仅打印ERROR级别日志 -->
+    <springProfile name="prod">
+        <root level="INFO">
+            <appender-ref ref="LOG_FILE_SEPARATE_BY_DATE"/>
+        </root>
+    </springProfile>
+
+    <!-- 开发环境仅打印INFO级别日志 -->
+    <springProfile name="dev">
+        <root level="INFO">
+            <appender-ref ref="LOG_FILE_SEPARATE_BY_DATE"/>
+        </root>
+    </springProfile>
+
+    <!-- 测试环境打印DEBUG级别日志 -->
+    <springProfile name="test">
+        <root level="INFO">
+            <appender-ref ref="LOG_FILE_SEPARATE_BY_DATE"/>
+        </root>
+    </springProfile>
+
+    <!-- 本地环境 -->
+    <springProfile name="local">
+        <root level="INFO">
+            <appender-ref ref="CONSOLE"/>
+        </root>
+    </springProfile>
+</Configuration>
