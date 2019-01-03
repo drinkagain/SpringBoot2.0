@@ -2,7 +2,7 @@ package com.jiuxian.base.user.controller;
 
 import com.jiuxian.base.user.entity.User;
 import com.jiuxian.base.user.service.UserService;
-import com.jiuxian.web.action.ActionUtils;
+import com.jiuxian.common.utils.ActionUtils;
 import com.jiuxian.web.model.ActionResult;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.subject.Subject;

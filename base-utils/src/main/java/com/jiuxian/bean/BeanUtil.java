@@ -1,8 +1,6 @@
 package com.jiuxian.bean;
 
 
-import org.springframework.beans.BeanUtils;
-
 import java.beans.BeanInfo;
 import java.beans.IntrospectionException;
 import java.beans.Introspector;
@@ -60,7 +58,7 @@ public class BeanUtil {
     }
 
     public static <T> T copy(Object source, T target, String... ignoreProperties) {
-        BeanUtils.copyProperties(source, target, ignoreProperties);
+    //    BeanUtils.copyProperties(source, target, ignoreProperties);
         return target;
     }
 

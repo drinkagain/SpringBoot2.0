@@ -2,7 +2,7 @@ package com.jiuxian.interceptor;
 
 import com.jiuxian.common.utils.JSONUtil;
 import com.jiuxian.exception.BusinessException;
-import com.jiuxian.web.action.ActionUtils;
+import com.jiuxian.common.utils.ActionUtils;
 import com.jiuxian.web.model.ActionResult;
 import org.apache.shiro.authc.DisabledAccountException;
 import org.apache.shiro.authc.IncorrectCredentialsException;
