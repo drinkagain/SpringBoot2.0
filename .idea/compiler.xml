@@ -6,14 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="base-orm" />
         <module name="base-orm-jpa" />
-        <module name="base-orm-mybatis" />
         <module name="base-utils" />
-        <module name="quartz" />
-        <module name="report" />
-        <module name="shiro-redis" />
+        <module name="springboot-el" />
+        <module name="springboot-jpa" />
+        <module name="springboot-mybatis-plus" />
+        <module name="springboot-quartz" />
+        <module name="springboot-shiro-redis" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="report" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="base-utils" options="-parameters" />
+      <module name="report" options="-parameters" />
+      <module name="springboot-el" options="-parameters" />
+      <module name="springboot-jpa" options="-parameters" />
+      <module name="springboot-mybatis-plus" options="-parameters" />
+      <module name="springboot-quartz" options="-parameters" />
+      <module name="springboot-shiro-redis" options="-parameters" />
+    </option>
   </component>
 </project>
