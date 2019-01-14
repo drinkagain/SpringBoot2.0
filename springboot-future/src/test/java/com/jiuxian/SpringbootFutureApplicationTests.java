@@ -35,7 +35,7 @@ public class SpringbootFutureApplicationTests {
     @Test
     public void futureTest() throws InterruptedException, ExecutionException {
         long start = System.currentTimeMillis();
-        System.out.println("计算方法开始");
+        System.out.println("开始");
         Future<String> future = futureService.futureTest();
         //另外一个耗时任务
         Thread.sleep(500);
@@ -44,7 +44,6 @@ public class SpringbootFutureApplicationTests {
         String s = future.get();
         System.out.println("计算结果输出:" + s);
         System.out.println("共耗时：" + (System.currentTimeMillis() - start));
-
         Thread.sleep(5000);
     }
 }

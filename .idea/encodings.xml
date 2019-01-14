@@ -9,6 +9,7 @@
     <file url="file://$PROJECT_DIR$/springboot-jpa" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-mybatis-plus" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-quartz" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-schedule" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-shiro-redis" charset="UTF-8" />
   </component>
 </project>
