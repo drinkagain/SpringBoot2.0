@@ -1,14 +1,13 @@
 package com.jiuxian.config;
 
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.Trigger;
 import org.springframework.scheduling.TriggerContext;
+import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.SchedulingConfigurer;
 import org.springframework.scheduling.config.ScheduledTaskRegistrar;
 
-import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.util.Date;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
@@ -16,12 +15,13 @@ import java.util.concurrent.Executors;
 /**
  * Author: jiuxian
  * Date: 2019-01-14 23:26:00
- * Comment:
+ * Comment:  自定义的一些配置
  */
 
 
-@Configuration
-public class AppConfig implements SchedulingConfigurer {
+//@Configuration
+//@EnableScheduling
+public class ScheduledConfig2 implements SchedulingConfigurer {
 
     @Override
     public void configureTasks(ScheduledTaskRegistrar taskRegistrar) {
@@ -32,6 +32,7 @@ public class AppConfig implements SchedulingConfigurer {
         );
     }
 
+
     @Bean
     public MyTask myTask() {
         return new MyTask();
@@ -40,7 +41,7 @@ public class AppConfig implements SchedulingConfigurer {
 
     @Bean(destroyMethod = "shutdown")
     public Executor taskExecutor() {
-        return Executors.newScheduledThreadPool(100);
+        return Executors.newScheduledThreadPool(20);
     }
 }
 

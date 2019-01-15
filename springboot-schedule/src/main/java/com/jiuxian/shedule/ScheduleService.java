@@ -14,10 +14,9 @@ import java.util.Date;
  */
 
 
-//@Service
+@Service
 public class ScheduleService {
 
-    @Async
     @Scheduled(fixedDelay = 2000)
     public void scheduleTest1() throws InterruptedException {
         System.out.println("scheduleTest1 Start.>>" + new Date().toLocaleString());
@@ -25,8 +24,7 @@ public class ScheduleService {
         System.out.println("scheduleTest1 End.>>" + new Date().toLocaleString());
     }
 
-    //@Async
-    //@Scheduled(fixedRate = 2000)
+    @Scheduled(fixedRate = 2000)
     public void scheduleTest2() throws InterruptedException {
         System.out.println("scheduleTest2 Start.>>" + new Date().toLocaleString());
         Thread.sleep(6000);
@@ -34,17 +32,15 @@ public class ScheduleService {
     }
 
     @Scheduled(cron = "0 0/1 * * * ? ")
-    public void scheduleTest3(){
-        System.out.println(">>>");
+    public void scheduleTest3() {
+        System.out.println("scheduleTest3 >>>");
     }
 
-/*
-    @Scheduled(fixedRate = 5000, initialDelay = 1000)
-    public void scheduleTest3() throws InterruptedException {
+    @Scheduled(fixedRate = 2000, initialDelay = 1000)
+    public void scheduleTest4() throws InterruptedException {
         System.out.println("scheduleTest2 fixedRate Start.>>");
         Thread.sleep(6000);
         System.out.println("scheduleTest2 fixedRate End.>>");
     }
-*/
 
 }
