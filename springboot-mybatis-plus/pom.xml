@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.jiuxian</groupId>
-    <artifactId>base-orm-mybatis</artifactId>
+    <artifactId>springboot-mybatis-plus</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>base-orm-mybatis</name>
+    <name>springboot-mybatis-plus</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>

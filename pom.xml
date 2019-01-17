@@ -25,12 +25,16 @@
     <dependencies>
     </dependencies>
     <modules>
-        <module>quartz</module>
-        <module>shiro-redis</module>
-        <module>base-orm-jpa</module>
-        <module>base-orm-mybatis</module>
         <module>base-utils</module>
         <module>logback</module>
+        <module>springboot-jpa</module>
+        <module>springboot-el</module>
+        <module>springboot-future</module>
+        <module>springboot-interceptor</module>
+        <module>springboot-mybatis-plus</module>
+        <module>springboot-quartz</module>
+        <module>springboot-shiro-redis</module>
+        <module>springboot-schedule</module>
     </modules>
 
 </project>

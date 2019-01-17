@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>quartz</artifactId>
+    <artifactId>springboot-quartz</artifactId>
 
     <dependencies>
         <dependency>
@@ -18,7 +18,7 @@
         </dependency>
         <dependency>
             <groupId>com.jiuxian</groupId>
-            <artifactId>base-orm-jpa</artifactId>
+            <artifactId>springboot-jpa</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
