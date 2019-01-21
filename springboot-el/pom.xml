@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.jiuxian</groupId>
-    <artifactId>spring-el</artifactId>
+    <artifactId>springboot-el</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-el</name>
+    <name>springboot-el</name>
     <description>springboot El 表达式注入配置文件属性</description>
 
     <properties>

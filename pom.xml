@@ -30,7 +30,7 @@
         <module>springboot-jpa</module>
         <module>springboot-el</module>
         <module>springboot-future</module>
-        <module>springboot-interceptor</module>
+        <module>springboot-interceptor-filter-listener</module>
         <module>springboot-mybatis-plus</module>
         <module>springboot-quartz</module>
         <module>springboot-shiro-redis</module>

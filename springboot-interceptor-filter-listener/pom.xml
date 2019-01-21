@@ -11,7 +11,7 @@
     <groupId>com.jiuxian</groupId>
     <artifactId>springboot-interceptor</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot-interceptor</name>
+    <name>springboot-interceptor-filter-listener</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

@@ -6,7 +6,7 @@
     <file url="file://$PROJECT_DIR$/logback" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-el" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-future" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot-interceptor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-interceptor-filter-listener" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-jpa" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-mybatis-plus" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-quartz" charset="UTF-8" />

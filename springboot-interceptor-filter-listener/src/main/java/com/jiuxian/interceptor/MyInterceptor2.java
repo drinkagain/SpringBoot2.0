@@ -1,41 +1,35 @@
-package com.jiuxian.config;
+package com.jiuxian.interceptor;
 
-import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
-import org.springframework.web.servlet.config.annotation.InterceptorRegistration;
-import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Author: jiuxian
- * Date: 2019-01-17 22:03:00
+ * Author: LIU ZEJUN
+ * Date: 2019-01-21 14:04:00
  * Comment:
  */
-public class MyInterceptor extends HandlerInterceptorAdapter {
 
+public class MyInterceptor2 implements HandlerInterceptor {
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-        System.out.println(request.getParameterMap());
         request.setAttribute("startTime", System.currentTimeMillis());
-        return super.preHandle(request, response, handler);
+        System.out.println(">>>>> MyInterceptor2 preHandle >>>>>>>>>>>>>>>>>>>>>>");
+        return true;
     }
 
     @Override
     public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
         long startTime = (long) request.getAttribute("startTime");
-        System.out.println("执行:" + (System.currentTimeMillis() - startTime));
+        System.out.println("MyInterceptor2 执行:" + (System.currentTimeMillis() - startTime));
+        System.out.println(">>>>> MyInterceptor2 postHandle >>>>>>>>>>>>>>>>>>>>>>");
     }
 
     @Override
     public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
         request.removeAttribute("startTime");
-    }
-
-    @Override
-    public void afterConcurrentHandlingStarted(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-        super.afterConcurrentHandlingStarted(request, response, handler);
+        System.out.println(">>>>> MyInterceptor2 afterCompletion >>>>>>>>>>>>>>>>>>>>>>");
     }
 }
