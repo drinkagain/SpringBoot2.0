@@ -27,6 +27,7 @@
     <modules>
         <module>base-utils</module>
         <module>logback</module>
+        <module>springboot-aop</module>
         <module>springboot-jpa</module>
         <module>springboot-el</module>
         <module>springboot-future</module>

@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/springboot-future/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-schedule/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-aop/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

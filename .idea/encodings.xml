@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/base-utils" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/logback" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-aop" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-el" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-future" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-interceptor-filter-listener" charset="UTF-8" />
