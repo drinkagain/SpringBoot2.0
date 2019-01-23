@@ -1,0 +1,66 @@
+{
+  "groups": [
+    {
+      "sourceType": "com.jiuxian.config.JiuxianProperties",
+      "type": "com.jiuxian.config.JiuxianProperties",
+      "name": "jiuxian"
+    },
+    {
+      "sourceType": "com.jiuxian.config.JiuxianProperties",
+      "type": "com.jiuxian.config.JiuxianProperties",
+      "name": "jiuxian.school",
+      "sourceMethod": "getSchool()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jiuxian.name",
+      "sourceType": "com.jiuxian.config.JiuxianProperties",
+      "deprecation": {
+        "level": "warning",
+        "reason": "不用了.",
+        "replacement": "jiuxian.name-cn"
+      }
+    },
+    {
+      "name": "jiuxian.name-cn",
+      "sourceType": "com.jiuxian.config.JiuxianProperties",
+      "defaultValue": "无"
+    },
+    {
+      "name": "jiuxian.name-en",
+      "sourceType": "com.jiuxian.config.JiuxianProperties",
+      "defaultValue": "无"
+    },
+    {
+      "name": "jiuxian.hobbies",
+      "sourceType": "com.jiuxian.config.JiuxianProperties",
+      "defaultValue": "无"
+    },
+    {
+      "name": "jiuxian.sex-enum",
+      "type": "com.jiuxian.config.JiuxianProperties$SexEnum",
+      "sourceType": "com.jiuxian.config.JiuxianProperties"
+    },
+    {
+      "name": "jiuxian.single",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.jiuxian.config.JiuxianProperties"
+    }
+  ],
+  "hints": [
+    {
+      "name": "jiuxian.sex-enum",
+      "values": [
+        {
+          "value": "MAN",
+          "description": "男."
+        },
+        {
+          "value": "woman",
+          "description": "女."
+        }
+      ]
+    }
+  ]
+}

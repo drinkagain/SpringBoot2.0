@@ -1,0 +1,11 @@
+jiuxian:
+  hobbies: a,b,c,d,1
+  single: true
+  sex-enum: man
+  school:
+    address: 上海
+    name: 上大
+  name: aadd
+
+
+#https://docs.spring.io/spring-boot/docs/2.1.2.RELEASE/reference/html/configuration-metadata.html#configuration-metadata-annotation-processor

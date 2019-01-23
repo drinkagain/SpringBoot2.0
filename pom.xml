@@ -36,6 +36,7 @@
         <module>springboot-quartz</module>
         <module>springboot-shiro-redis</module>
         <module>springboot-schedule</module>
+        <module>springboot-yml</module>
     </modules>
 
 </project>
