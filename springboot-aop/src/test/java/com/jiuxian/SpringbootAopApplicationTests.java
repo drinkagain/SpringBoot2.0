@@ -1,5 +1,6 @@
 package com.jiuxian;
 
+import com.jiuxian.service.DoSthService;
 import com.jiuxian.service.UserService;
 import org.junit.Assert;
 import org.junit.Test;
@@ -30,6 +31,14 @@ public class SpringbootAopApplicationTests {
     @Test
     public void testAop3() {
         userService.testAnnotationAop();
+    }
+
+    @Test
+    public void testIntroduction() {
+        userService.testIntroduction();
+        //Aop 让UserService方法拥有 DoSthService的方法
+        DoSthService doSthService = (DoSthService) userService;
+        doSthService.doSth();
     }
 }
 

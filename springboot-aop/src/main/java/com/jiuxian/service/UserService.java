@@ -12,5 +12,5 @@ public interface UserService {
 
     void testAnnotationAop();
 
-    String save(int a);
+    void testIntroduction();
 }
