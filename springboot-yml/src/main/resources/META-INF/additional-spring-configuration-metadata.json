@@ -1,0 +1,61 @@
+{
+  "groups": [
+    {
+      "name": "jiuxian",
+      "sourceType": "com.jiuxian.config.JiuxianProperties",
+      "type": "com.jiuxian.config.JiuxianProperties"
+    },
+    {
+      "name": "jiuxian.school",
+      "sourceType": "com.jiuxian.config.School",
+      "type": "com.jiuxian.config.School",
+      "sourceMethod": "getSchool()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jiuxian.name",
+      "sourceType": "com.jiuxian.config.JiuxianProperties",
+      "type": "java.lang.String",
+      "deprecation": {
+        "level": "error",
+        "reason": "不用了.",
+        "replacement": "jiuxian.name-cn"
+      }
+    },
+    {
+      "name": "jiuxian.name-cn",
+      "sourceType": "com.jiuxian.config.JiuxianProperties",
+      "type": "java.lang.String",
+      "defaultValue": "jiuxian"
+    }
+  ],
+  "hints": [
+    {
+      "name": "jiuxian.sex-enum",
+      "values": [
+        {
+          "value": "man",
+          "description": "man."
+        },
+        {
+          "value": "woman",
+          "description": "woman."
+        }
+      ]
+    },
+    {
+      "name": "jiuxian.single",
+      "values": [
+        {
+          "value": true,
+          "description": "yes."
+        },
+        {
+          "value": false,
+          "description": "no."
+        }
+      ]
+    }
+  ]
+}
