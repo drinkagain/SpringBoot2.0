@@ -43,6 +43,7 @@
         <module>springboot-shiro-redis</module>
         <module>springboot-schedule</module>
         <module>springboot-yml</module>
+        <module>springboot-annotations</module>
     </modules>
 
 </project>
