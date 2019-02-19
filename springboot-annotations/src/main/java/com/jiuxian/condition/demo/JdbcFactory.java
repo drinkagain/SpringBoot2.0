@@ -1,4 +1,4 @@
-package com.jiuxian.config;
+package com.jiuxian.condition.demo;
 
 /**
  * Author: LIU ZEJUN

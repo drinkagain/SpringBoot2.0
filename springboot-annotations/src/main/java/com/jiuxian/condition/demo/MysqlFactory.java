@@ -1,6 +1,4 @@
-package com.jiuxian.config;
-
-import org.springframework.stereotype.Component;
+package com.jiuxian.condition.demo;
 
 /**
  * Author: LIU ZEJUN
@@ -13,6 +11,6 @@ public class MysqlFactory implements JdbcFactory {
 
     @Override
     public void create() {
-        System.out.println("Define 。。 create");
+        System.out.println("mysql 。。 create");
     }
 }

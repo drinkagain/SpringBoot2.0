@@ -1,4 +1,4 @@
-package com.jiuxian.config;
+package com.jiuxian.condition.demo;
 
 import com.jiuxian.condition.OracleCondition;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
@@ -17,6 +17,6 @@ public class OracleDefaultFactory implements JdbcFactory {
 
     @Override
     public void create() {
-        System.out.println("oracle ..create..");
+        System.out.println("Default oracle create..");
     }
 }

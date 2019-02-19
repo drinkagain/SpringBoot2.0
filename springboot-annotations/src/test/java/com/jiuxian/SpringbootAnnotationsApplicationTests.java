@@ -1,7 +1,7 @@
 package com.jiuxian;
 
 import com.jiuxian.combination.CombinationAnnotationTestService;
-import com.jiuxian.config.JdbcFactory;
+import com.jiuxian.condition.demo.JdbcFactory;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -17,6 +17,9 @@ public class SpringbootAnnotationsApplicationTests {
     @Resource
     private JdbcFactory jdbcFactory;
 
+    /**
+     * 条件注解测试
+     */
     @Test
     public void conditionOnMissBean() {
         jdbcFactory.create();
@@ -25,6 +28,9 @@ public class SpringbootAnnotationsApplicationTests {
     @Resource
     private CombinationAnnotationTestService combinationAnnotationTestService;
 
+    /**
+     * 组合注解测试
+     */
     @Test
     public void combinationTest() {
         combinationAnnotationTestService.doSth();

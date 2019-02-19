@@ -1,4 +1,4 @@
-package com.jiuxian.config;
+package com.jiuxian.condition.demo;
 
 import com.jiuxian.condition.MySqlCondition;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
@@ -17,7 +17,7 @@ public class MySqlDefaultFactory implements JdbcFactory {
 
     @Override
     public void create() {
-        System.out.println("MySql .. create ..");
+        System.out.println("Default MySql create ..");
     }
 
 }
