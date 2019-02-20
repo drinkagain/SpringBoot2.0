@@ -22,14 +22,6 @@
         <java.version>1.8</java.version>
     </properties>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.2</version>
-            <scope>compile</scope>
-        </dependency>
-    </dependencies>
     <modules>
         <module>base-utils</module>
         <module>logback</module>
@@ -40,7 +32,6 @@
         <module>springboot-interceptor-filter-listener</module>
         <module>springboot-mybatis-plus</module>
         <module>springboot-quartz</module>
-        <module>springboot-shiro-redis</module>
         <module>springboot-schedule</module>
         <module>springboot-yml</module>
         <module>springboot-annotations</module>
