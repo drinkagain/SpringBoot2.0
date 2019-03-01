@@ -2,6 +2,8 @@ package com.jiuxian;
 
 import com.jiuxian.combination.CombinationAnnotationTestService;
 import com.jiuxian.condition.demo.JdbcFactory;
+import com.jiuxian.import_.annotation.AConfiguration;
+import com.jiuxian.import_.annotation.BConfiguration;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -34,6 +36,19 @@ public class SpringbootAnnotationsApplicationTests {
     @Test
     public void combinationTest() {
         combinationAnnotationTestService.doSth();
+    }
+
+
+    @Resource
+    private BConfiguration bConfiguration;
+
+    @Resource
+    private AConfiguration aConfiguration;
+
+    @Test
+    public void selectorTest() {
+        bConfiguration.foo();
+        aConfiguration.foo();
     }
 
 }

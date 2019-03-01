@@ -1,13 +1,12 @@
 package com.jiuxian.import_.annotation;
 
-import org.springframework.context.annotation.AdviceMode;
-import org.springframework.context.annotation.AdviceModeImportSelector;
-import org.springframework.context.annotation.AnnotationConfigUtils;
+import com.jiuxian.import_.constant.EnumBeanSelector;
 import org.springframework.context.annotation.ImportSelector;
 import org.springframework.core.GenericTypeResolver;
-import org.springframework.core.annotation.AnnotationAttributes;
 import org.springframework.core.type.AnnotationMetadata;
 import org.springframework.util.Assert;
+
+import java.util.Map;
 
 /**
  * Author: jiuxian
@@ -18,16 +17,22 @@ import org.springframework.util.Assert;
 public class ImportConfigurationSelector implements ImportSelector {
     @Override
     public String[] selectImports(AnnotationMetadata importingClassMetadata) {
-        Class<?> annType = GenericTypeResolver.resolveTypeArgument(getClass(), ImportConfigurationSelector.class);
-        Assert.state(annType != null, "Unresolvable type argument for AdviceModeImportSelector");
-
-        AnnotationAttributes attributes = AnnotationConfigUtils.attributesFor(importingClassMetadata, annType);
-
-        if (attributes == null) {
-            throw new IllegalArgumentException(String.format(
-                    "@%s is not present on importing class '%s' as expected",
-                    annType.getSimpleName(), importingClassMetadata.getClassName()));
+        Map<String, Object> annotationAttributes = importingClassMetadata.getAnnotationAttributes(ImportSelectorConfiguration.class.getName());
+        EnumBeanSelector selectorEnum = EnumBeanSelector.valueOf(annotationAttributes.get("value").toString());
+        switch (selectorEnum) {
+            case A:
+                return new String[]{ AConfiguration.class.getName() };
+            case B:
+                return new String[]{ BConfiguration.class.getName() };
+            default:
+                return null;
         }
-        return new String[0];
+//        AnnotationAttributes attributes = AnnotationConfigUtils.attributesFor(importingClassMetadata, annType);
+//
+//        if (attributes == null) {
+//            throw new IllegalArgumentException(String.format(
+//                    "@%s is not present on importing class '%s' as expected",
+//                    annType.getSimpleName(), importingClassMetadata.getClassName()));
+//        }
     }
 }

@@ -1,6 +1,7 @@
 package com.jiuxian.import_;
 
 import com.jiuxian.import_.annotation.ImportSelectorConfiguration;
+import com.jiuxian.import_.constant.EnumBeanSelector;
 import org.springframework.context.annotation.Configuration;
 
 /**
@@ -9,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
  * Comment:
  */
 
-@ImportSelectorConfiguration
+@ImportSelectorConfiguration(value = EnumBeanSelector.A)
 @Configuration
 public class ImportSelectorDemo {
 }

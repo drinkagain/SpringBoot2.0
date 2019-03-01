@@ -1,7 +1,7 @@
 package com.jiuxian.import_.annotation;
 
+import com.jiuxian.import_.constant.EnumBeanSelector;
 import org.springframework.context.annotation.Import;
-import org.springframework.scheduling.annotation.AsyncConfigurationSelector;
 
 import java.lang.annotation.*;
 
@@ -16,5 +16,5 @@ import java.lang.annotation.*;
 @Import(ImportConfigurationSelector.class)
 public @interface ImportSelectorConfiguration {
 
-    String value() default "ABC";
+    EnumBeanSelector value();
 }
