@@ -35,6 +35,7 @@
         <module>springboot-schedule</module>
         <module>springboot-yml</module>
         <module>springboot-annotations</module>
+        <module>springboot-event</module>
     </modules>
 
 </project>

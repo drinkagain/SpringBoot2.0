@@ -1,7 +1,10 @@
 package com.jiuxian;
 
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 import java.time.LocalDateTime;
 
@@ -12,15 +15,11 @@ import java.time.LocalDateTime;
 //@EnableTransactionManagement
 //@EnableCaching
 //@EnableConfigurationProperties
-@Configuration
 public class SpringbootAnnotationsApplication {
 
     public static void main(String[] args) {
-//        SpringApplication.run(SpringbootAnnotationsApplication.class, args);
+        SpringApplication.run(SpringbootAnnotationsApplication.class, args);
 
-        LocalDateTime dateTime = LocalDateTime.now();
-        System.out.println(dateTime.getYear());
-        System.out.println(dateTime.getMonthValue());
     }
 
 }

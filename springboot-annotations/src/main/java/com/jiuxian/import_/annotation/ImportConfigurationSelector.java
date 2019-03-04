@@ -33,6 +33,6 @@ public class ImportConfigurationSelector implements ImportSelector {
 //            throw new IllegalArgumentException(String.format(
 //                    "@%s is not present on importing class '%s' as expected",
 //                    annType.getSimpleName(), importingClassMetadata.getClassName()));
-//        }
+//        }f
     }
 }
