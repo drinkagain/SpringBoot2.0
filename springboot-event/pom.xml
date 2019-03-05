@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.jiuxian</groupId>
-    <artifactId>event</artifactId>
+    <artifactId>springboot-event</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>event</name>
     <description>Demo project for Spring Boot</description>
