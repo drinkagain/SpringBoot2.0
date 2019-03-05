@@ -11,7 +11,7 @@
     <groupId>com.jiuxian</groupId>
     <artifactId>springboot-event</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>event</name>
+    <name>springboot-event</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
