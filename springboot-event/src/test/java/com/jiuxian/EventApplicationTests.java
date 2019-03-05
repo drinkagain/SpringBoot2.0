@@ -1,6 +1,6 @@
 package com.jiuxian;
 
-import com.jiuxian.event.DemoPublisher;
+import com.jiuxian.publisher.DemoPublisher;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -16,10 +16,8 @@ public class EventApplicationTests {
     private DemoPublisher demoPublisher;
 
     @Test
-    public void publisherTest() throws InterruptedException {
+    public void publisherTest() {
         demoPublisher.publish(1L, "成功了！");
-
-        Thread.sleep(2000);
     }
 
 }

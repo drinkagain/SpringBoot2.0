@@ -1,7 +1,10 @@
-package com.jiuxian.event;
+package com.jiuxian.publisher;
 
+import com.jiuxian.event.DemoEvent;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.ApplicationEventPublisher;
+import org.springframework.context.event.ApplicationContextEvent;
 import org.springframework.stereotype.Component;
 
 /**
@@ -21,10 +24,7 @@ public class DemoPublisher {
     }
 
     public void publish(long id, String message) {
-        DemoEvent demoEvent = new DemoEvent(this);
-        demoEvent.setId(id);
-        demoEvent.setMessage(message);
-        applicationContext.publishEvent(demoEvent);
+        applicationContext.publishEvent(new DemoEvent(this, id, message));
     }
 
 }
