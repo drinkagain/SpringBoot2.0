@@ -7,8 +7,6 @@
 >
 >quartz 集成 
 >
->shiro-redis 集成
->
 >logback 配置
 >
 >springboot-el springboot引入系统配置的方式
@@ -26,3 +24,5 @@
 >springboot-annotations SpringBoot自动配置之迷
 >
 >springboot-event spring 事件
+>
+>springboot-exception 统一异常处理
