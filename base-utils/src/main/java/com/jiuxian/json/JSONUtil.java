@@ -5,9 +5,11 @@ import com.fasterxml.jackson.databind.JavaType;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.databind.type.MapType;
+import com.jiuxian.http.IpUtil;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -27,7 +29,7 @@ public class JSONUtil {
         }
     }
 
-    public static <T> T jsonToBean(String json, Class<T> clazz) {
+    public static <T> T toBean(String json, Class<T> clazz) {
         try {
             return mapper.readerFor(clazz).readValue(json);
         } catch (IOException e) {
@@ -36,7 +38,7 @@ public class JSONUtil {
         }
     }
 
-    public static <E> List<E> jsonToList(String json, Class<E> clazz) {
+    public static <E> List<E> toList(String json, Class<E> clazz) {
         JavaType javaType = mapper.getTypeFactory().constructParametricType(ArrayList.class, clazz);
         try {
             return mapper.readValue(json, javaType);
@@ -46,7 +48,7 @@ public class JSONUtil {
         }
     }
 
-    public static <K, V> Map<K, V> jsonToMap(String json, Map<K, V> map) {
+    public static <K, V> Map<K, V> toMap(String json) {
         MapType mapType = mapper.getTypeFactory().constructRawMapType(Map.class);
         try {
             return mapper.readValue(json, mapType);
@@ -56,9 +58,18 @@ public class JSONUtil {
         }
     }
 
+    public static <K, V> Map<K, V> toMap(String s, Class<K> keyClass, Class<V> valueClass) {
+        try {
+            return mapper.readValue(s, mapper.getTypeFactory().constructMapType(HashMap.class, keyClass, valueClass));
+        } catch (IOException e) {
+            e.printStackTrace();
+            throw new RuntimeException();
+        }
+    }
+
     public static void main(String[] args) {
 
-        List<String> list = jsonToList("[1,2,3,4,5]", String.class);
+        List<String> list = toList("[1,2,3,4,5]", String.class);
         list.forEach(item -> {
             System.out.println(item + 1);
         });

@@ -60,6 +60,8 @@ public class HttpClientUtil {
         try {
             Request request = new Request.Builder().url(url).headers(headers).build();
             Call call = okHttpClient.newCall(request);
+            ResponseBody body = call.execute().body();
+            System.out.println(body);
             return Objects.requireNonNull(call.execute().body()).string();
         } catch (IOException e) {
             e.printStackTrace();
