@@ -1,6 +1,6 @@
 package com.jiuxian.controller;
 
-import com.jiuxian.base.ResponseResult;
+import com.jiuxian.web.ResponseResult;
 import com.jiuxian.exception.BaseException;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

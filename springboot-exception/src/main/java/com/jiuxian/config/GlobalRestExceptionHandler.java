@@ -1,6 +1,6 @@
 package com.jiuxian.config;
 
-import com.jiuxian.base.ResponseResult;
+import com.jiuxian.web.ResponseResult;
 import com.jiuxian.exception.BaseException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;

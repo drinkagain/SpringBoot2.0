@@ -1,4 +1,4 @@
-package com.jiuxian.base;
+package com.jiuxian.web;
 
 import lombok.Data;
 import org.springframework.http.HttpStatus;

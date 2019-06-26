@@ -36,6 +36,8 @@
         <module>springboot-yml</module>
         <module>springboot-annotations</module>
         <module>springboot-event</module>
+        <module>springboot-exception</module>
+        <module>spring-bean-lifecycle</module>
     </modules>
 
 </project>
