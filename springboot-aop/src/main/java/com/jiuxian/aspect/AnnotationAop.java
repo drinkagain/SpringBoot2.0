@@ -30,7 +30,9 @@ public class AnnotationAop {
         try {
             System.out.println(log.value());
             System.out.println("around");
-            return joinPoint.proceed();
+            Object proceed = joinPoint.proceed();
+            System.out.println(proceed);
+            return proceed;
         } catch (Throwable throwable) {
             throw throwable;
         } finally {

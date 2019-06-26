@@ -12,6 +12,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class UserServiceImpl implements UserService {
 
+    @Log(value = "test")
     @Override
     public String save(String user) {
         System.out.println("保存用户信息");
