@@ -38,6 +38,7 @@
         <module>springboot-event</module>
         <module>springboot-exception</module>
         <module>spring-bean-lifecycle</module>
+        <module>springboot-swagger2</module>
     </modules>
 
 </project>
