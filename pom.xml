@@ -41,5 +41,4 @@
         <module>springboot-swagger2</module>
         <module>springboot-lock</module>
     </modules>
-
 </project>
