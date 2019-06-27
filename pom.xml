@@ -39,6 +39,7 @@
         <module>springboot-exception</module>
         <module>spring-bean-lifecycle</module>
         <module>springboot-swagger2</module>
+        <module>springboot-lock</module>
     </modules>
 
 </project>
