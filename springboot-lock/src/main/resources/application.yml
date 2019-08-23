@@ -6,8 +6,10 @@ spring:
     timeout: 2000ms
     lettuce:
       pool:
-        max-active: 20
-        max-idle: 8
-        max-wait: 1000ms
+        max-active: 250
+        max-idle: 64
+        max-wait: 3000ms
         min-idle: 2
 
+redisson:
+  address: redis://localhost:6379

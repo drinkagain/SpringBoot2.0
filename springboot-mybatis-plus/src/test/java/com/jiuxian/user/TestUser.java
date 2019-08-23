@@ -1,6 +1,7 @@
 package com.jiuxian.user;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.jiuxian.BaseOrmMybatisApplicationTests;
 import com.jiuxian.core.entity.User;
@@ -18,7 +19,6 @@ public class TestUser extends BaseOrmMybatisApplicationTests {
     @Resource
     private UserService userService;
 
-
     @Test
     public void testSelect() {
         System.out.println(("----- selectAll method test ------"));
@@ -31,116 +31,26 @@ public class TestUser extends BaseOrmMybatisApplicationTests {
     @Test
     public void doSaveBatch() {
         userService.doSaveBatch();
+        LambdaQueryWrapper<User> wrapper = Wrappers.<User>query().lambda().eq(User::getAge, 30);
+        userService.list(wrapper);
+
+        LambdaQueryWrapper<User> wrapper1 = new QueryWrapper<User>().lambda().eq(User::getAge, 30);
+        userService.list(wrapper1);
+
+        userService.lambdaQuery().eq(User::getAge, 30).list();
+
+        QueryWrapper<User> age = Wrappers.<User>query().ge("age", 30);
+
+        userService.list(age);
+
     }
 
 
     @Test
     public void testLambdaSelect() {
-        Logger logger = LoggerFactory.getLogger(TestUser.class);
-        LambdaQueryWrapper<User> id = Wrappers.<User>query().lambda().eq(User::getUid, "1");
-        id.eq(User::getUid, "2");
+        LambdaQueryWrapper<User> id = Wrappers.<User>query().lambda().eq(User::getId, "1");
+        id.eq(User::getId, "2");
         for (int i = 0; i < 100000; i++) {
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-            logger.info(">>>>>>>>>>>ASDFGHJKLKJHGFVDCVBNM>>>>>>>>>>>");
-
             List<User> list = userService.list(id);
             System.out.println(list);
         }

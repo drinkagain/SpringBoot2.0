@@ -27,6 +27,7 @@ public class AsyncConfig implements AsyncConfigurer {
         taskExecutor.setMaxPoolSize(16);
         //队列大小
         taskExecutor.setQueueCapacity(100);
+        taskExecutor.setThreadNamePrefix("my-pool-");
         taskExecutor.initialize();
         return taskExecutor;
     }

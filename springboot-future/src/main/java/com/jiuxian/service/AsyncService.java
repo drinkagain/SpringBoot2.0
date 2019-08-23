@@ -14,6 +14,7 @@ public class AsyncService {
 
     @Async
     public void executeAsync1() throws InterruptedException {
+        System.out.println(Thread.currentThread().getName());
         Thread.sleep(20);
         System.out.println("异步任务::1");
 
