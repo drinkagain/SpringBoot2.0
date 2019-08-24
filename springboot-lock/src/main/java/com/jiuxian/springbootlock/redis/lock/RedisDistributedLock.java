@@ -100,6 +100,7 @@ public class RedisDistributedLock extends AbstractDistributedLock {
         } finally {
             lockFlag.remove();
         }
+
         return false;
     }
 }
